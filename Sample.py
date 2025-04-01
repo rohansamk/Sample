@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the Excel file
-file_path = "/Users/rohan/Downloads/Book2_test.xlsx"
+file_path = "Book2_test.xlsx"
 df = pd.read_excel(file_path)
 
 # Reshape from wide to long format
